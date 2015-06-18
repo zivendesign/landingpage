@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document 
+Author Name: Saptarang
+Author URI: http://www.saptarang.org
+Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+Creation Date: 19th June, 2014
+Description: A default stylesheet for SpiceHub Restaurant Responsive Landing Page, Designed & Developed By Saptarang.
+*/
+/* ======================= */
+/* ======== Font ========= */
+/* ======================= */
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+  font-family: 'Roboto Slab', Georgia; }
+
+h1, h2, h3, h4, h5, h6, .navigation nav a, .btn {
+  font-family: 'Overlock', Roboto Slab, Georgia; }
+
+/* ======================= */
+/* ======= Color1 ======== */
+/* ======================= */
+#specials h1, h2, #menu-carousel .food-item-list .food-item h4, #home-delivery .btn, #home-delivery .bigIcon i, #quotes h1 span, #testimonial h5, h4 span, .slides-navigation a i {
+  color: #e80017; } /* RED */
+
+/* ======================= */
+/* == Background Color1 == */
+/* ======================= */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, #intro .welcome, .btn-default, h5, .bigIcon i, .btn-primary:hover, #specials .carousel-indicators li.active, #specials .carousel-indicators li.active:hover, #menu-list .carousel-indicators li.active, #menu-list .carousel-indicators li.active:hover, #menu-list .carousel-indicators li:hover, .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover, .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight, #more .extra:hover .bigIcon i, #more .extra:hover, #home-delivery, #testimonial .carousel-indicators li.active, .slides-navigation a i, #menu-list.grid .food-price, #specials.grid .food-price, #specials .bigIcon.view-type a.active i, #menu-list .bigIcon.view-type a.active i {
+  background-color: #e80017; } /* RED */
+
+#home-delivery .bigIcon i {
+  border-color: #e80017; } /* RED */
+
+/* ======================= */
+/* ======= Color2 ======== */
+/* ======================= */
+#specialCarousel .food-info h4, a, h1 span, .error {
+  color: #fb8100; } /* ORANGE */
+
+/* ======================= */
+/* == Background Color2 == */
+/* ======================= */
+#intro, .btn-primary, .features:hover h5, .food-img a .link, #tagline, #more .extra .bigIcon i, #about .box, a.top, #about .about, #copyright .bigIcon i:hover, .slides-pagination a.current {
+  background-color: #fb8100; } /* ORANGE */
+
+/* USE RGBA VALUE HERE */
+#testimonial {
+  border-left: 10px solid rgba(251, 129, 0, 0.5); } /* ORANGE */
+
+/* ======================= */
+/* ======= Color3 ======== */
+/* ======================= */
+.navbar-default .navbar-nav > li > a, h4, .btn-action, #specials small, #menu-carousel .food-item-list .food-item .food-price, #menu-carousel .food-item-list .food-item .food-price small, #home-delivery h2 span, #quotes h1, #testimonial h5 span, #about .about h1 span, #specials h1 span {
+  color: #393838; } /* DARK GREY */
+
+/* ======================= */
+/* == Background Color3 == */
+/* ======================= */
+#about, #contact, #copyright {
+  background-color: #393838; } /* DARK GREY */
+
+#map .bigIcon i, #copyright .bigIcon i {
+  border-color: #393838; } /* DARK GREY */
+
+/* USE RGBA VALUE HERE */
+.mCS-rounded.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: rgba(57, 56, 56, 0.6); } /* DARK GREY */
+
+/* ======================= */
+/* ======= Color4 ======== */
+/* ======================= */
+h3, #intro .action strong {
+  color: #feedd7; } /* LIGHT ORANGE - SECTION BACKGROUND */
+
+/* ======================= */
+/* == Background Color4 == */
+/* ======================= */
+body, .btn-action, #menu-list .carousel-inner, #quotes, #about .timing {
+  background-color: #feedd7; } /* LIGHT ORANGE */
+
+.bigIcon i {
+  border: 8px solid #feedd7; } /* LIGHT ORANGE */
+
+/* ======================= */
+/* ======= Color5 ======== */
+/* ======================= */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, h1, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, h3, #intro .action strong, h5, .bigIcon i, #specials .carousel-indicators li.active, #home-delivery h2, #home-delivery p, #about .about p, .contact-info p i, .contact-info p a:hover, .contact-info p span, #copyright p a:hover, #menu-list.grid .food-item-list .food-price, #menu-list.grid .food-item-list .food-price small, #specials.grid .food-item .food-price, #specials.grid .food-item .food-price small {
+  color: #fff8ef; } /* VERY LIGHT ORANGE */
+
+/* ======================= */
+/* == Background Color5 == */
+/* ======================= */
+.features, #menu-carousel .menu-category-info, #home-delivery .bigIcon i, .cbp-af-header.cbp-af-header-shrink, .btn-action:hover {
+  background-color: #fff8ef; } /* VERY LIGHT ORANGE */
+
+/* USE RGBA VALUE HERE */
+header, #specials .carousel-indicators li, #specialCarousel .food-item {
+  background-color: rgba(255, 248, 239, 0.9); } /* VERY LIGHT ORANGE */
+
+/* ==================================== */
+/* == Background Texture Color Tone == */
+/* ================================== */
+#features, #menu-list, #more {
+  background-color: rgba(57, 56, 56, 0.6); } /* DARK GREY */
